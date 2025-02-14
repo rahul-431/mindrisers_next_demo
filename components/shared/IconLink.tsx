@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-interface LogoLinkType {
+interface IconLinkType {
   icon: React.ReactNode;
   href: string;
 }
-const LogoLink = ({ icon, href }: LogoLinkType) => {
+const IconLink = ({ icon, href }: IconLinkType) => {
   return (
     <Link href={href} className="hover:text-[#BA933E]">
       {icon}
@@ -12,4 +12,4 @@ const LogoLink = ({ icon, href }: LogoLinkType) => {
   );
 };
 
-export default LogoLink;
+export default IconLink;
