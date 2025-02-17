@@ -8,7 +8,7 @@ import {
 import { MdWifiCalling3 } from "react-icons/md";
 import NavMenu from "../shared/NavigationMenu";
 import IconLink from "../shared/IconLink";
-const iconlist = [
+export const iconlist = [
   {
     icon: <FaFacebook />,
     href: "#",
