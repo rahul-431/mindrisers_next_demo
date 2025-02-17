@@ -14,7 +14,7 @@ const SectionDown1 = () => {
         <p className="text-gray-200 sm:text-lg">
           Class aptent taciti sociosqu ad litora torquent per
         </p>
-        <button className="p-3 bg-black text-white rounded-lg flex items-center justify-center gap-2 w-fit mx-auto">
+        <button className="p-3 bg-black text-white rounded-lg flex items-center justify-center gap-2 w-fit mx-auto hover:bg-yellow-600">
           Shop Collection <FaAngleRight />
         </button>
       </div>
