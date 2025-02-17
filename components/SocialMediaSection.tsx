@@ -1,6 +1,7 @@
 "use client";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
+import Image from "next/image";
 
 const SocialMediaSection = () => {
   const imageItem = [
@@ -43,7 +44,7 @@ const SocialMediaSection = () => {
       {/* Image Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {imageItem.map((item, index) => (
-          <img
+          <Image
             key={index}
             src={item.image}
             alt={item.name}
