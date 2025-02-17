@@ -65,7 +65,7 @@ const Footer = () => {
           {/* Let's talk and find us section */}
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-3">
-              <h1 className="text-xl font-semibold text-white">Let's Talk</h1>
+              <h1 className="text-xl font-semibold text-white">Lets Talk</h1>
               <div className="flex gap-5 items-start">
                 <span className="text-xl">
                   <FaHeadphonesAlt />
