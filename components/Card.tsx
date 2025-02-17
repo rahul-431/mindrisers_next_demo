@@ -97,7 +97,7 @@ const Card = () => {
         <h2 className="text-black">Top sale in this week</h2>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {cartItems.slice(0, isMobile ? 4 : cartItems.length).map((item, index) => (
           <div key={index} className="group relative w-full h-96 overflow-hidden rounded-lg shadow-lg">
             <img

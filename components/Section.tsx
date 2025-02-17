@@ -16,7 +16,7 @@ const Section = () => {
             <p className="text-gray-400 text-sm md:text-base">
               Class aptent taciti soci
             </p>
-            <button className="p-3 bg-black text-white rounded-lg flex items-center gap-2 w-fit">
+            <button className="p-3 bg-black text-white rounded-lg flex items-center gap-2 w-fit hover:bg-yellow-600">
               Shop Collection <FaAngleRight />
             </button>
           </div>
